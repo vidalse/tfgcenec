@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "425296561114",
+    "project_id": "tfgcenecletsmeet",
+    "storage_bucket": "tfgcenecletsmeet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425296561114:android:f88473342b2b93c70e76e3",
+        "android_client_info": {
+          "package_name": "com.example.tfgceneclm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425296561114-b4u48im2a5sg81la7di7iei795ltfijf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOT0gt5zDMtksOTtdjnn3bpVx9tZAFc2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425296561114-b4u48im2a5sg81la7di7iei795ltfijf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
