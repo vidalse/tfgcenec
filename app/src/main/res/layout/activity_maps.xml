@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity" >
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAñadirQuedada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/material_dynamic_neutral_variant50"
+        android:src="@android:drawable/ic_input_add" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabQuedadasPendientes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/material_dynamic_neutral_variant50"
+        android:src="@android:drawable/ic_input_add" />
+    <androidx.appcompat.widget.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200" />
+
+
+    <TextView
+        android:id="@+id/usertxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|bottom"
+        android:layout_marginLeft="75dp"
+        android:layout_marginBottom="10dp"
+
+
+        android:text=""
+
+        android:background="@color/white"/>
+
+    <Button
+        android:id="@+id/signoutbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="45dp"
+
+
+        android:text="LOG-OUT" />
+
+    <Button
+        android:id="@+id/boton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="55dp"
+        android:backgroundTint="@color/material_dynamic_neutral70"
+        android:textColor="@color/purple_200"
+
+        android:text="Borrar" />
+
+    <Button
+        android:textColor="@color/purple_200"
+
+        android:id="@+id/botonAnad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="55dp"
+        android:backgroundTint="@color/material_dynamic_neutral70"
+
+        android:text="Unirse" />
+
+</fragment>
